@@ -1,6 +1,6 @@
-# Released  udnMIT License
-
 # Copyright (c) 2021 Christian Balbin
+# This work is licensed under the terms of the MIT license.  
+# For a copy, see <https://opensource.org/licenses/MIT>.
 
 import subprocess
 import tempfile
@@ -202,7 +202,7 @@ class BLASTParser:
                     continue
                 
 
-                # if the residues match are we are not in a match, inititate a match. If in previosuly was in a match and the residues at current pos dont match
+                # if the residues match and we are not in a match, inititate a match. If in previosuly was in a match and the residues at current pos dont match
                 # end the patch and push to the lists of matches above
                 if qres == sres:
                     cigar.append("|")
